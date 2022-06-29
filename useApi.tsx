@@ -12,6 +12,7 @@ interface IAPIConfig {
 //three
 //four
 //dd
+// fdsfsd
 interface IMethods {
   URL: string;
   payLoad: Record<string, unknown>;
