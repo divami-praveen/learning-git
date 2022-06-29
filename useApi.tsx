@@ -8,11 +8,6 @@ interface IAPIConfig {
   payLoad: Record<string, unknown>;
   msg: string;
 }
-//two
-//three
-//four
-//dd
-// fdsfsd
 interface IMethods {
   URL: string;
   payLoad: Record<string, unknown>;

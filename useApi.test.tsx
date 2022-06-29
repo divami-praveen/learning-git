@@ -7,8 +7,6 @@ import useApi from "../custom_hooks/useApi";
 //test
 jest.mock("axios");
 
-//new
-
 interface apiObj {
   URL: string;
   method: string;
