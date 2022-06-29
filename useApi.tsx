@@ -11,6 +11,7 @@ interface IAPIConfig {
 //two
 //three
 //four
+//five
 interface IMethods {
   URL: string;
   payLoad: Record<string, unknown>;
