@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios, { AxiosError, AxiosResponse } from "axios";
-
+// this is a test comment
 interface IAPIConfig {
   URL: string;
   method: string;
@@ -18,7 +18,7 @@ interface IMethods {
   payLoad: Record<string, unknown>;
   msg: string;
 }
-
+//here
 const useApi = (obj: IAPIConfig) => {
   const [data, setData] = useState<any>({});
   const [error, setError] = useState<unknown>(null);
@@ -32,7 +32,7 @@ const useApi = (obj: IAPIConfig) => {
   };
 
   /**
-   * @param msg is not used yet. it is currently a placeholder. in future we will use it to handle toast messages
+   * @param msg is not used yet. it is currently a placeholder. in future we will use it to handle toast message
    */
   function fetchMethod({ URL, msg }: { URL: string; msg: string }) {
     setLoading(true);
