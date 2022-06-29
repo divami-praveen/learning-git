@@ -9,7 +9,8 @@ interface IAPIConfig {
   msg: string;
 }
 //two
-//threem
+//three
+//four
 interface IMethods {
   URL: string;
   payLoad: Record<string, unknown>;
