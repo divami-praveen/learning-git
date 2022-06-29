@@ -8,7 +8,7 @@ interface IAPIConfig {
   payLoad: Record<string, unknown>;
   msg: string;
 }
-
+//two
 interface IMethods {
   URL: string;
   payLoad: Record<string, unknown>;
